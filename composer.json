@@ -1,0 +1,21 @@
+{
+    "name": "amneale/phpspec-adder",
+    "description": "A simple phpspec example",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adder\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Neale",
+            "email": "adam@adam-neale.co.uk"
+        }
+    ]
+}
