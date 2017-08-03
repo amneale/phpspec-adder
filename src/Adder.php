@@ -4,8 +4,8 @@ namespace Adder;
 
 class Adder
 {
-    public function add(int $a, int $b): int
+    public function add(int $firstInt, int $secondInt): int
     {
-        return $a + $b;
+        return $firstInt + $secondInt;
     }
 }
