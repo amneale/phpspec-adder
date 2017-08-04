@@ -10,4 +10,9 @@ class AdderSpec extends ObjectBehavior
     {
         $this->add(1, 2)->shouldReturn(3);
     }
+
+    function it_adds_more_numbers()
+    {
+        $this->add(1, 2, 3, 4, 5)->shouldReturn(15);
+    }
 }

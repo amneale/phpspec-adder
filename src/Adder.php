@@ -4,8 +4,13 @@ namespace Adder;
 
 class Adder
 {
-    public function add(int $firstInt, int $secondInt): int
+    /**
+     * @param int[] ...$integers
+     *
+     * @return int
+     */
+    public function add(int ...$integers): int
     {
-        return $firstInt + $secondInt;
+        return array_sum($integers);
     }
 }
