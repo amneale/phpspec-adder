@@ -1,5 +1,5 @@
 {
-    "name": "amneale/phpspec-adder",
+    "name": "amneale/phpspec-ci-coverage",
     "description": "A simple phpspec example",
     "require": {
         "php": "^7.0"
